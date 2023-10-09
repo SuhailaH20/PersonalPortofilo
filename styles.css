@@ -134,7 +134,6 @@ button:hover {
 .aboutImg {
     margin-top: 20px;
     margin-right: 20px;
-  
     animation: ob1 6s linear infinite;
 }
 
@@ -396,12 +395,13 @@ footer {
 
 
     .aboutImg {
-        width: fit-content;
-        height: fit-content;
+        display: none;
+        width: 10px;
+        height: 10px;
         margin-right: auto;
         margin-left: auto;
         animation: none;
-    }
+    }s
 
     #Home {
         flex-direction: column;
