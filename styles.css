@@ -101,17 +101,16 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 
 .AboutText {
+    text-align: center;
     color: #FFF;
     margin-top: 5px;
     max-width: 60ch;
     font-size: larger;
-    z-index: 0;
-    margin-left: 20px;
-    width: 100%;
+    
 }
 
 .AboutText h1 {
@@ -135,7 +134,7 @@ button:hover {
 .aboutImg {
     margin-top: 20px;
     margin-right: 20px;
-    z-index: -1;
+  
     animation: ob1 6s linear infinite;
 }
 
@@ -395,13 +394,6 @@ footer {
 
 @media screen and (max-width: 576px) {
 
-    #About {
-        font-size: 12px;
-        flex-direction: column;
-        text-align: center;
-        margin-right: auto;
-        margin-left: -25%;
-    }
 
     .aboutImg {
         width: fit-content;
